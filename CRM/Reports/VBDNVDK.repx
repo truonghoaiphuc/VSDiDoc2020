@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="17.1.3.0" Ref="1" ControlType="VSDiDoc.Report.RPVanBan, VSDiDoc, Version=2.0.0.8, Culture=neutral, PublicKeyToken=null" Name="RPVanBan" Landscape="true" Margins="29, 24, 29, 32" PaperKind="A4" PageWidth="1169" PageHeight="827" Version="17.1" DataSource="#Ref-0">
+  <Bands>
+    <Item1 Ref="2" ControlType="DetailBand" Name="Detail" HeightF="35.83333" TextAlignment="TopLeft" Font="Times New Roman, 9pt" Padding="0,0,0,0,100">
+      <Controls>
+        <Item1 Ref="3" ControlType="XRTable" Name="table2" AnchorVertical="Bottom" TextAlignment="MiddleCenter" SizeF="1116.00024,35.83333" LocationFloat="0, 0" Font="Times New Roman, 9pt" Borders="Left, Right, Bottom">
+          <Rows>
+            <Item1 Ref="4" ControlType="XRTableRow" Name="tableRow2" Weight="1">
+              <Cells>
+                <Item1 Ref="5" ControlType="XRTableCell" Name="tableCell4" Weight="0.10439070943946768" CanGrow="false">
+                  <Summary Ref="6" Running="Report" Func="RecordNumber" />
+                </Item1>
+                <Item2 Ref="7" ControlType="XRTableCell" Name="tableCell5" Weight="0.22759861564529785" CanGrow="false">
+                  <DataBindings>
+                    <Item1 Ref="9" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="VanBanDen.NgayNhan" DataSource="#Ref-8" />
+                  </DataBindings>
+                </Item2>
+                <Item3 Ref="10" ControlType="XRTableCell" Name="tableCell6" Weight="0.18279567260836857" CanGrow="false">
+                  <DataBindings>
+                    <Item1 Ref="11" PropertyName="Text" DataMember="VanBanDen.SoVB" DataSource="#Ref-8" />
+                  </DataBindings>
+                </Item3>
+                <Item4 Ref="12" ControlType="XRTableCell" Name="tableCell13" Weight="0.69242812291558975" CanGrow="false" TextAlignment="MiddleLeft">
+                  <DataBindings>
+                    <Item1 Ref="13" PropertyName="Text" DataMember="VanBanDen.NoiGui" DataSource="#Ref-8" />
+                  </DataBindings>
+                  <StylePriority Ref="14" UseTextAlignment="false" />
+                </Item4>
+                <Item5 Ref="15" ControlType="XRTableCell" Name="tableCell14" Weight="0.29278687939127618" CanGrow="false">
+                  <DataBindings>
+                    <Item1 Ref="16" PropertyName="Text" DataMember="VanBanDen.KyHieu" DataSource="#Ref-8" />
+                  </DataBindings>
+                </Item5>
+                <Item6 Ref="17" ControlType="XRTableCell" Name="tableCell15" Weight="0.23398314932368025" CanGrow="false">
+                  <DataBindings>
+                    <Item1 Ref="18" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="VanBanDen.NgayVB" DataSource="#Ref-8" />
+                  </DataBindings>
+                </Item6>
+                <Item7 Ref="19" ControlType="XRTableCell" Name="tableCell16" Weight="0.60282238040557534" CanGrow="false" TextAlignment="MiddleLeft">
+                  <DataBindings>
+                    <Item1 Ref="20" PropertyName="Text" DataMember="VanBanDen.TrichYeu" DataSource="#Ref-8" />
+                  </DataBindings>
+                  <StylePriority Ref="21" UseTextAlignment="false" />
+                </Item7>
+                <Item8 Ref="22" ControlType="XRTableCell" Name="tableCell19" Weight="0.24820794722407141" CanGrow="false" />
+                <Item9 Ref="23" ControlType="XRTableCell" Name="tableCell17" Weight="0.22300611423372352" CanGrow="false" />
+                <Item10 Ref="24" ControlType="XRTableCell" Name="tableCell18" Weight="0.19198040881294959" CanGrow="false">
+                  <DataBindings>
+                    <Item1 Ref="25" PropertyName="Text" DataMember="VanBanDen.GhiChu" DataSource="#Ref-8" />
+                  </DataBindings>
+                </Item10>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="26" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+      <StylePriority Ref="27" UseFont="false" />
+    </Item1>
+    <Item2 Ref="28" ControlType="TopMarginBand" Name="TopMargin" HeightF="28.54166" TextAlignment="TopLeft" Padding="0,0,0,0,100" />
+    <Item3 Ref="29" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="32.2916679" TextAlignment="TopLeft" Padding="0,0,0,0,100" />
+    <Item4 Ref="30" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="141.666672">
+      <Controls>
+        <Item1 Ref="31" ControlType="XRTable" Name="table1" AnchorVertical="Bottom" TextAlignment="MiddleCenter" SizeF="1116.00024,59.375" LocationFloat="0, 82.29167" Font="Times New Roman, 12pt, style=Bold" BackColor="LightGray" Borders="All">
+          <Rows>
+            <Item1 Ref="32" ControlType="XRTableRow" Name="tableRow1" Weight="1">
+              <Cells>
+                <Item1 Ref="33" ControlType="XRTableCell" Name="tableCell10" Weight="0.10439070943946768" CanGrow="false" Text="STT" />
+                <Item2 Ref="34" ControlType="XRTableCell" Name="tableCell7" Weight="0.22759861564529785" CanGrow="false" Text="Ngày đến" />
+                <Item3 Ref="35" ControlType="XRTableCell" Name="tableCell11" Weight="0.18279567260836857" CanGrow="false" Text="Số CT" />
+                <Item4 Ref="36" ControlType="XRTableCell" Name="tableCell1" Weight="0.69242812291558975" CanGrow="false" Text="Nơi ban hành văn bản" />
+                <Item5 Ref="37" ControlType="XRTableCell" Name="tableCell8" Weight="0.29278687939127618" CanGrow="false" Text="Số và Ký hiệu VB" />
+                <Item6 Ref="38" ControlType="XRTableCell" Name="tableCell2" Weight="0.23398314932368028" CanGrow="false" Text="Ngày tháng VB" />
+                <Item7 Ref="39" ControlType="XRTableCell" Name="tableCell12" Weight="0.60282264702414312" CanGrow="false" Text="Nội dung" />
+                <Item8 Ref="40" ControlType="XRTableCell" Name="tableCell9" Weight="0.47121379483922715" CanGrow="false">
+                  <Controls>
+                    <Item1 Ref="41" ControlType="XRLabel" Name="label2" Text="Ký nhận" SizeF="175.291443,28.2083359" LocationFloat="0, 0" Padding="2,2,0,0,96" Borders="Bottom">
+                      <StylePriority Ref="42" UseBorders="false" />
+                    </Item1>
+                    <Item2 Ref="43" ControlType="XRLabel" Name="label3" Text="CVHC" SizeF="92.33316,31.1666412" LocationFloat="0, 28.2083511" Padding="2,2,0,0,96" Borders="Right">
+                      <StylePriority Ref="44" UseBorders="false" />
+                    </Item2>
+                    <Item3 Ref="45" ControlType="XRLabel" Name="label4" Text="Phòng ĐK" SizeF="82.95828,31.1666412" LocationFloat="92.33316, 28.2083511" Padding="2,2,0,0,96" Borders="None">
+                      <StylePriority Ref="46" UseBorders="false" />
+                    </Item3>
+                  </Controls>
+                </Item8>
+                <Item9 Ref="47" ControlType="XRTableCell" Name="tableCell3" Weight="0.19198040881294959" CanGrow="false" Text="Ghi chú" />
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="48" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="49" ControlType="XRLabel" Name="label1" Text="SỔ GIAO NHẬN CHỨNG TỪ NGHIỆP VỤ ĐẾN - PHÒNG ĐKCK" TextAlignment="MiddleCenter" SizeF="1116,41.75002" LocationFloat="0, 29.7916737" Font="Times New Roman, 16pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="50" UseFont="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="51" ControlType="XRLabel" Name="label5" Text="Mẫu: 03ĐK/CVHC" TextAlignment="TopRight" SizeF="195.833313,23" LocationFloat="920.166931, 0" Padding="2,2,0,0,96">
+          <StylePriority Ref="52" UseTextAlignment="false" />
+        </Item3>
+      </Controls>
+    </Item4>
+    <Item5 Ref="53" ControlType="PageFooterBand" Name="PageFooter" HeightF="28.1250134">
+      <Controls>
+        <Item1 Ref="54" ControlType="XRPageInfo" Name="pageInfo1" Format="Trang {0}/{1}" TextAlignment="MiddleRight" SizeF="100,28.1250134" LocationFloat="1016.00024, 0" Padding="2,2,0,0,100">
+          <StylePriority Ref="55" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item5>
+  </Bands>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v17.1" Ref="8" Content="~Xtra#NULL" Type="VSDiDoc.VSDiDocData" />
+    <Item2 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v17.1" Ref="0" Content="~Xtra#NULL" Type="VSDiDoc.VSDiDocData+VanBanDenDataTable" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+   <Project>
+    <AppCode>VSDiDoc</AppCode>
+    <AppName>VSDiDoc 2021 </AppName>
+    <Version>3.0.0.3</Version>
+    <Description>- Nâng cấp hoàn toàn nhằm cải tiến tốc độ xử lý
+</Description>
+  <Link>http://192.168.198.100/VSDiDocUpdate/Client.zip</Link>
+  </Project>
+ </Root>
